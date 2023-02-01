@@ -1,4 +1,4 @@
-# Template for app with tauri + Vanilla + radixui + tailwindcss + esbuild
+# Template for app with tauri + react + radixui + tailwindcss + esbuild
 
 ### How to use in development
 
