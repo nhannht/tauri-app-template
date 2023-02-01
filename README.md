@@ -17,4 +17,6 @@ npm run react-devtools
 tauri build
 ```
 
+![](showcases/pic1.png)
+
 > Tailwind and RadixUi setup are backed by [shadcn/ui](https://github.com/shadcn/ui)
