@@ -57,7 +57,7 @@ if (watch) {
     buildTailwind()
     console.log(chalk.blue('[esbuild] ') + ' Build complete in ' + (Date.now() - start) + 'ms');
 
-    chokidar.watch(['src/**/*'], {ignored: /(^|[\/\\])\../})
+    chokidar.watch(['src/**/*',"public/**/*"], {ignored: /(^|[\/\\])\../})
         .on('all', async (event, path) => {
             if (event === 'change') {
                 console.log(chalk.blue('[esbuild] ') + ' Change detected in ' + path + ' ...');

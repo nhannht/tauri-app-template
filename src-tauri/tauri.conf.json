@@ -2,12 +2,12 @@
   "build": {
     "beforeDevCommand": "",
     "beforeBuildCommand": "",
-    "devPath": "../build",
+    "devPath": "http://localhost:5555",
     "distDir": "../build",
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "chatgpt-assistant-desktop",
+    "productName": "tauri-app-template-nhannht",
     "version": "0.0.0"
   },
   "tauri": {
@@ -34,7 +34,7 @@
         "icons/icon.ico"
       ],
       "identifier": "io.github.nhannht",
-      "longDescription": "",
+      "longDescription": "tauri app template",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -43,7 +43,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Tauri app template, front end by esbuild, radix ui tailwindcss",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -62,7 +62,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "chatgpt-assistant-desktop",
+        "title": "tauri-app-nhannht-template",
         "width": 800
       }
     ]
